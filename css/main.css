@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    max-height: 100%;
+}
+.center{
+    max-width: 100%; /*Largura Maxíma 1100*/
+    margin: 0 auto; 
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.logo img{
+    width: 38%;
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a { /* Fonte */
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+    transition: 400ms;
+}
+.menu a:hover{ /*Altera cor ao passar mouse */
+    color: #f48029;
+}
+
+.menu .button-menu{
+    background-color: rgb(8, 119, 223);
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .button-menu:hover{
+    background-color: #f48029;
+    color: white;
+}
+
+/* Section Main */
+
+section.main{
+    background-color: #f48029;;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+    width: 100%;
+    text-align: center;
+}
+
+.main__cta h2{
+    color: white;
+    font-size: 40px;
+}
+
+.main__cta img{
+    height: 300px;
+
+}
+
+.main__cta h1{
+    color: white;
+}
+
+.main__cta p{
+    color: white;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main__cta button {
+    background-color: rgb(8, 119, 223);
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.main__cta button:hover{
+    background-color: gray;
+    color: white;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    border-radius: 15px;
+    display: flex;
+    background-color: white;
+    width: 24%;
+    margin-right: 1%;
+    height: 140px;
+}
+
+.diferencial-single img{
+    width: 14%;
+    height: 20%;
+}
+
+.diferencial-single i{
+    color: #f48029;
+    font-size: 23px;
+}
+
+.diferencial-single h2{
+    color: #f48029;
+    font-size: 17px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.diferencial-single p{
+    color: gray;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: -115px;
+    margin-top: 30px;
+    max-width: 80%;
+}
+
+#engajamento{
+    margin-left: -108px;
+}
+
+#extranet{
+    margin-left: -70px;
+}
+
+.redes-social img {
+    position: relative;
+    width: 4%;
+    margin-top: 15px;
+    bottom: 550px; 
+    left: 1430px;
+    display: block; 
+}
+
+#img_main{
+    width: 400px;
+}
